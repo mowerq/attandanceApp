@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Modent Şan</string>
+    <string name="appTitle">Şan Dersi Yoklama</string>
+    <string name="tab_text_1">Yoklama Al</string>
+    <string name="tab_text_2">Devamsızlık Sıralaması</string>
+    <string name="member1">Arif Taşçıoğlu</string>
+    <string name="member2">Asena Koşmaz</string>
+    <string name="member3">Aslı Nurhan Seçir</string>
+    <string name="member4">Begüm Ukulele Şan</string>
+    <string name="member5">Berna Kavradım</string>
+    <string name="member6">Buse Pala</string>
+    <string name="member7">Buğra Arslanca</string>
+    <string name="member8">Büşra Aykutoğlu</string>
+    <string name="member9">Büşra Nimet Bolat</string>
+    <string name="member10">Cemil Hoca Ukulele</string>
+    <string name="member11">Cemile Sancaktar</string>
+    <string name="member12">Çiğdem Yönetim</string>
+    <string name="member13">Dilan Yapıcı</string>
+    <string name="member14">Eda Nur Aygören</string>
+    <string name="member15">Esra Keleş</string>
+    <string name="member16">Eyyüp Atay</string>
+    <string name="member17">Feyza Altınbaş</string>
+    <string name="member18">Feyza Ukulele Şan</string>
+    <string name="member19">Hüsna Şeyma Bozdağ</string>
+    <string name="member20">Kader Gitar Şan</string>
+    <string name="member21">Kübra Cangir</string>
+    <string name="member22">Meryem Gezer</string>
+    <string name="member23">Müge Yarımca</string>
+    <string name="member24">Orhan Vuran</string>
+    <string name="member25">Ömer Bozkuş</string>
+    <string name="member26">Rümeysa Nur Duran</string>
+    <string name="member27">Sabri Taş</string>
+    <string name="member28">Şeyma Ukulele Şan</string>
+    <string name="member29">Tülay Tosun</string>
+    <string name="member30">Yağmur Uslu</string>
+    <string name="member31">Yunus Şahin</string>
+    <string name="member32">Zeynep Ukulele Şan</string>
+    <string name="member33">Zülal Uslu</string>
+
+
+
+</resources>

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/backgroundColor">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/chipGroupID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip1"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:checked="false"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member1"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip2"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member2"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip3"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member3"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip4"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member4"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip5"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member5"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip6"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member6"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip7"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member7"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip8"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member8"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip9"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member9"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip10"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip11"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member11"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip12"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member12"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip13"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member13"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip14"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member14"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip15"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member15"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip16"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member16"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip17"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member17"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip18"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member18"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip19"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member19"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip20"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member20"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip21"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member21"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip22"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member22"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip23"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member23"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip24"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member24"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip25"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member25"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip26"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member26"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip27"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member27"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip28"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member28"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip29"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member29"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip30"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member30"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip31"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member31"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip32"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member32"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip33"
+                    style="@style/CustomChipStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/member33"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:checkedIconEnabled="false" />
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/beforeClick"
+                    android:contentDescription="KAYDET"
+                    android:padding="20dp"
+                    android:tint="@color/afterClick"
+                    app:srcCompat="@android:drawable/ic_menu_myplaces" />
+
+            </com.google.android.material.chip.ChipGroup>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
